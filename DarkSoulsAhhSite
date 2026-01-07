@@ -13,7 +13,7 @@
         {
           position: absolute;
           margin-left: 50px;
-          margin-top: 20px;
+          margin-top: 40px;
           font-size: 35px;
           color: white;
           
@@ -48,15 +48,61 @@
           left: 50px;
           top: 100pt;
         }
+        
+        table
+        {
+          position: absolute;
+          display: none;
+          color: white;
+          left: 450px;
+          top: 130px;
+        }
+        
+        td
+        {
+          text-shadow: 0 0 10px gold, 0 0 20px red;
+          text-align: left;
+          vertical-align: top;
+        }
+        
+        img:hover + table
+        {
+          display: table;
+        }
+        
+        #td1
+        {
+          font-size: 35px;
+        }
     </style>
 </head>
 <body>
     <h4>Dark Souls</h4>
     <p>"Life crumbles to dust".</p>
     <img 
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMKJzGbQ1fiY0Ahceelk3R_KFfVhKNWYdg&s"
+    src="https://images.steamusercontent.com/ugc/102851052188463988/39B8D2A58A22D499C2AA43E9DCFED2905C82755A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
     onmouseover="this.src='https://cdn.mos.cms.futurecdn.net/2NkqPsTsCd8AVGiS7N69BA.jpg'" widhth="300px" height="200px"
-    onmouseout="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMKJzGbQ1fiY0Ahceelk3R_KFfVhKNWYdg&s'"
+    onmouseout="this.src='https://images.steamusercontent.com/ugc/102851052188463988/39B8D2A58A22D499C2AA43E9DCFED2905C82755A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false'"
     >
+    
+    <table>
+      <tr>
+          <td id="td1">Dancer</td>
+      </tr>
+      <tr>
+          <td> The Pontiff Sulyvahn bestowed a double-slashing sword </td>
+      </tr>
+      <tr>
+          <td> upon a distant daughter of the formal royal family, </td>
+      </tr>
+      <tr>
+          <td> ordering her to serve first as a dancer, </td>
+      </tr>
+      <tr>
+          <td> and then as an outrider knight, </td>
+      </tr>
+      <tr>
+          <td> the equivalent to exile.</td>
+      </tr>
 </body>
 </html>
