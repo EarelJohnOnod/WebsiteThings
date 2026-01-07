@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_game-thumbnail.jpg');
+            background-size: cover;       /* makes the image fill the screen */
+            background-repeat: no-repeat; /* prevents tiling */
+            background-attachment: fixed;
+        }
+        
+        h4
+        {
+          position: absolute;
+          margin-left: 50px;
+          margin-top: 20px;
+          font-size: 35px;
+          color: white;
+          
+          animation: glowPulse 1.5s infinite alternate;
+        }
+        
+        @keyframes glowPulse
+        {
+          0%
+          {
+            text-shadow: none;
+          }
+          100%
+          {
+            text-shadow: 0 0 10px gold, 0 0 20px orange;
+          }
+        }
+        
+        p
+        {
+          position: absolute;
+          top: 75px;
+          margin-left: 50px;
+          font-style: italic;
+          color: white;
+        }
+        
+        img
+        {
+          position: absolute;
+          position: relative;
+          left: 50px;
+          top: 100pt;
+        }
+    </style>
+</head>
+<body>
+    <h4>Dark Souls</h4>
+    <p>"Life crumbles to dust".</p>
+    <img 
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMKJzGbQ1fiY0Ahceelk3R_KFfVhKNWYdg&s"
+    onmouseover="this.src='https://cdn.mos.cms.futurecdn.net/2NkqPsTsCd8AVGiS7N69BA.jpg'" widhth="300px" height="200px"
+    onmouseout="this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGMKJzGbQ1fiY0Ahceelk3R_KFfVhKNWYdg&s'"
+    >
+</body>
+</html>
