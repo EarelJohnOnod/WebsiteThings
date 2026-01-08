@@ -9,7 +9,7 @@
             background-attachment: fixed;
         }
         
-        h4
+        #DS
         {
           position: absolute;
           margin-left: 50px;
@@ -74,11 +74,34 @@
         {
           font-size: 35px;
         }
+        
+        #HTK
+        {
+          display: none;
+          position: absolute;
+          left: 60px;
+          top: 320px;
+          font-size: 20px;
+          color: white;
+        }
+        
+        #HTKI
+        {
+          display: none;
+          position: absolute;
+          color: white;
+          left: 60px;
+          top: 360px;
+        }
+        
+        
     </style>
 </head>
 <body>
-    <h4>Dark Souls</h4>
+    <h4 id="DS">Dark Souls</h4>
     <p>"Life crumbles to dust".</p>
+    <h4 id="HTK">How to Defeat:</h4>
+    <h4 id="HTKI">blah blah blah</h4>
     <img 
     src="https://images.steamusercontent.com/ugc/102851052188463988/39B8D2A58A22D499C2AA43E9DCFED2905C82755A/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
     onmouseover="this.src='https://cdn.mos.cms.futurecdn.net/2NkqPsTsCd8AVGiS7N69BA.jpg'" widhth="300px" height="200px"
