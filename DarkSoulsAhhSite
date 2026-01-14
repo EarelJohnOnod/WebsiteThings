@@ -94,6 +94,27 @@
           top: 360px;
         }
         
+        #audio
+        {
+          position: absolute;
+          color: white;
+          left: 60px;
+          top: 360px;
+        }
+        
+        #ac1
+        {
+          position: absolute;
+          left: 60px;
+          top: 420px;
+        }
+        
+        #vc1
+        {
+          position: absolute;
+          left: 60px;
+          top: 480px;
+        }
         
     </style>
 </head>
@@ -110,22 +131,39 @@
     
     <table>
       <tr>
-          <td id="td1">Dancer</td>
+        <td id="td1">Dancer</td>
       </tr>
       <tr>
-          <td> The Pontiff Sulyvahn bestowed a double-slashing sword </td>
+        <td>The Pontiff Sulyvahn bestowed a double-slashing sword</td>
       </tr>
       <tr>
-          <td> upon a distant daughter of the formal royal family, </td>
+        <td>upon a distant daughter of the formal royal family,</td>
       </tr>
       <tr>
-          <td> ordering her to serve first as a dancer, </td>
+        <td>ordering her to serve first as a dancer,</td>
       </tr>
       <tr>
-          <td> and then as an outrider knight, </td>
+        <td>and then as an outrider knight,</td>
       </tr>
       <tr>
-          <td> the equivalent to exile.</td>
+        <td>the equivalent to exile.</td>
       </tr>
+    </table>
+
+    <h2 id="audio">Details:</h2>
+    <iframe id="ac1" width="75%" height="166" scrolling="no" frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/rpg_ost/dark-souls-iii-ost-dancer-of-the-boreal-valley&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false">
+    </iframe>
+    
+    <iframe id="if1" width="50%" height="50%"
+            src="https://www.youtube.com/embed/8nhTOf-cZv4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="position: absolute; left: 60px; top: 630px;">
+    </iframe>
+
 </body>
 </html>
